@@ -5,6 +5,25 @@
 @import "header";
 @import "hero";
 
-body{
-    min-height: 500vh;
+@import "brand";
+@import "product";
+@import "aboutus";
+@import "newsletter";
+
+.footer {
+    width:100%;
+    height: 65px;
+    background-color: #0B0B0B;
+    margin-top: 100px;
+    display: grid;
+    place-items: center;
+    p{
+        color: #fff;
+        font-weight: 500;
+        font-size: 16px;
+    }
 }
+
+// body{
+//     min-height: 500vh;
+// }
